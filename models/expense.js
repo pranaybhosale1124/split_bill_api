@@ -32,7 +32,7 @@ module.exports = function(sequelize, DataTypes) {
       allowNull: true,
       defaultValue: "payer"
     },
-    amount: {
+    expense_total_amount: {
       type: DataTypes.DOUBLE,
       allowNull: false
     },

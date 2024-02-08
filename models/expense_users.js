@@ -23,6 +23,11 @@ module.exports = function(sequelize, DataTypes) {
         key: 'user_id'
       }
     },
+    amount: {
+      type: DataTypes.DOUBLE,
+      allowNull: true,
+      defaultValue: 0
+    },
     transaction_id: {
       type: DataTypes.INTEGER,
       allowNull: true,
