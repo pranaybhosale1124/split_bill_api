@@ -1,0 +1,65 @@
+{
+    "status": 200,
+    "data": [
+        {
+            "group_id": 10,
+            "group_name": "Party",
+            "group_details": null,
+            "group_status": "Active",
+            "group_create_date": null,
+            "group_end_date": null,
+            "group_expense_count": 1,
+            "group_total_amount": null,
+            "group_type": null,
+            "expenses": [
+                {
+                    "expense_id": 100,
+                    "expense_name": "Starbucks",
+                    "group_id": 10,
+                    "user_id": 1000,
+                    "user_type": "payer",
+                    "amount": 5000,
+                    "amount_payment_status": null,
+                    "expense_description": "lunch",
+                    "transaction_id": null,
+                    "expense_created_date": null,
+                    "expense_settled_date": null,
+                    "expense_users": [
+                        {
+                            "expense_users_id": 1000001,
+                            "group_id": 10,
+                            "expense_id": 100,
+                            "user_id": 1001,
+                            "user": {
+                                "user_id": 1001,
+                                "user_name": "saurabhchavan30",
+                                "user_first_name": "Saurabh",
+                                "user_last_name": "Chavan",
+                                "user_password": "Saurabh@3",
+                                "user_role": "user",
+                                "user_contact_numer": "7869834513",
+                                "user_trust_score": 0
+                            }
+                        },
+                        {
+                            "expense_users_id": 1000000,
+                            "group_id": 10,
+                            "expense_id": 100,
+                            "user_id": 1000,
+                            "user": {
+                                "user_id": 1000,
+                                "user_name": "pranaybhosale1124",
+                                "user_first_name": "Pranay",
+                                "user_last_name": "Bhosale",
+                                "user_password": "Pranay@11",
+                                "user_role": "user",
+                                "user_contact_numer": "7208620325",
+                                "user_trust_score": 0
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
